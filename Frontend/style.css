@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+#lista-produtos {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.card h2 {
+    color: #222;
+    margin-top: 0;
+}
+
+.card p {
+    color: #555;
+    font-size: 17px;
+}
+
+.card .preco {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
